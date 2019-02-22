@@ -1,0 +1,29 @@
+.contenedor {
+  color      : #ffffff;
+  background : red;
+}
+
+.contenedor2 {
+  color      : #ffffff;
+  background : #1e70eb;
+}
+
+@media
+  only screen
+  and (min-width : 600px) {
+  .contenedor {
+    display         : flex;
+    color           : #050505;
+    background      : #9aeb22;
+    align-items     : center;
+    justify-content : space-around;
+  }
+
+  .contenedor2 {
+    display         : flex;
+    color           : #242222;
+    background      : #9deb1e;
+    align-items     : center;
+    justify-content : space-around;
+  }
+}
